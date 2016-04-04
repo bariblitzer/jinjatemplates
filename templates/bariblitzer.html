@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.css" crossorigin="anonymous">
+
+<link rel='stylesheet prefetch' href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic'>
+
+
+
+	<link rel="stylesheet" href="static/css/style.css">
+{% block styles %}{% endblock %}
+	
+	<title>Bari Blitzer - {{title}}</title>
+</head>
+
+<body>
+	<header>
+		 <nav class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="/home.html">Bari Blitzer</a>
+	        </div>
+	        <div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+				<li role="presentation" 
+					{% if path == "/home.html" %}
+						class="active"
+					{% endif %} >
+					<a href="/home.html">Home</a>
+				</li>
+				
+				<li role="presentation"
+					{% if path == "/myresume.html" %}
+						class='active'
+					{% endif %} >
+
+					<a href="/myresume.html">Resume</a>
+					
+			
+				</li>
+				<li role="presentation"
+					{% if path == "/mybio.html" %}
+						class="active"
+					{% endif %}>
+					
+					<a href="/mybio.html">Bio</a>
+				
+				</li>
+				<li role="presentation"
+					{% if path == "/login.html" %}
+						class="active"
+					{% endif %}>
+
+					
+					<a href="/login.html">Log In</a>
+
+					
+				
+				</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+
+			<!--
+			<li class="dropdown hidden-sm"
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/myresume.html">Resume</a></li>
+                <li><a href="/login.html">Log In</a></li>
+                <li><a href="/food.html">Food</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+              </ul>
+            </li>
+        -->
+	</header>
+	<div id='navbar-padding'></div>
+
+
+
+
+
+	{% block content %}
+	You shouldn't see this
+	{% endblock %}
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js" crossorigin="anonymous"></script>
+
+	<script src="/static/js/bari.js"></script>
+
+	<footer>
+		<p>Copyright &copy; 2016 by Bari Blitzer.<p>	
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bari Blitzer - {{title}}</title>
+</head>
+
+<body>
+	<header>
+		<h1>Bari Blitzer</h1>
+		<h2>{{title2}}</h2>
+		<nav>
+			<a href="/home.html">
+				{% if path == "/home.html" %}
+					HOME
+				{% else %}
+					Home
+				{% endif %}
+				</a>
+			<a href="/family.html">
+				{% if path == "/family.html" %}
+					FAMILY
+				{% else %}
+					Family
+				{% endif %}
+				</a>
+			<a href="/food.html">
+				{% if path == "/food.html" %}
+					FOOD
+				{% else %}
+					Food
+				{% endif %}
+				</a>
+			<a href="/login.html">
+				{% if path == "/login.html" %}
+					LOG IN
+				{% else %}
+					Log In
+				{% endif %}
+				</a>
+		</nav>
+	</header>
+
+	{% block content %}
+	You shouldn't see this
+	{% endblock %}
+
+	<footer>
+		<p>Copyright &copy; 2016 by Bari Blitzer.<p>	
+	</footer>
+
+</body>
+</html>

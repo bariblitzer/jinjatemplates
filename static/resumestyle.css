@@ -1,0 +1,43 @@
+h1 {
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px #7F7F7F;
+}
+
+.my_container {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.my_container img {
+	vertical-align: auto;
+	width: 60%;
+	text-align: center;
+	vertical-align: center;
+}
+
+li {
+	margin: 0 auto;
+	vertical-align: center;
+	text-align: center;
+}
+.network-name {
+	text-align: center;
+}
+
+a {
+	vertical-align: center;
+}
+
+body {
+
+	text-align: center;
+
+}
+
+img {
+	display: inline;
+	margin-top: 10px;
+	margin-bottom: 10px;
+

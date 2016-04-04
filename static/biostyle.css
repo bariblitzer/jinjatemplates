@@ -1,0 +1,34 @@
+h1 {
+	color: white;
+	margin-top: 50px;
+	text-shadow: 2px 2px #7F7F7F;
+}
+
+footer {
+	position: fixed;
+}
+
+li {
+	margin: 0 auto;
+	vertical-align: center;
+	text-align: center;
+}
+.network-name {
+	text-align: center;
+}
+
+a {
+	vertical-align: center;
+}
+
+body {
+
+	text-align: center;
+
+}
+
+img {
+	display: inline;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
