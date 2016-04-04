@@ -4,7 +4,13 @@ h1 {
 	text-shadow: 2px 2px #7F7F7F;
 }
 
+h2 {
+	color: black;
+	font-size: 100%;
+}
+
 footer {
+
 	position: fixed;
 }
 
@@ -13,12 +19,17 @@ li {
 	vertical-align: center;
 	text-align: center;
 }
+
 .network-name {
 	text-align: center;
 }
 
 a {
 	vertical-align: center;
+}
+
+ul {
+
 }
 
 body {
@@ -31,4 +42,7 @@ img {
 	display: inline;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	vertical-align: center;
+	text-align: center;
 }
+

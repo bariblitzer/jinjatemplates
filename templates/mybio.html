@@ -6,6 +6,29 @@
 {% block content %}
 <h1>My Bio</h1>
 <img src = "static/bari.jpg" alt = "resume" width = 150/>
+<style>
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+<body>
+<div class="background">
+  <div class="transbox">
+    <h2>I'm currently a sophomore at the University of Michigan. I am enrolled in SI 206, where I learned to make this portfolio. I was just accepted into the School of Information, and hope to enhance my skills in coding.</br>I hope to use these skills and my past resume opportunities to participate in an internship program that consists of programming, and user design anayltics.</h2>
+  </div>
+</div>
+</body>
+
 
 <ul class="list-inline intro-social-buttons">
 		<li>
@@ -27,5 +50,5 @@
             </a>
         </li>
     </ul>
-	<p>  
+	 
 {% endblock %}
