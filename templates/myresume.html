@@ -5,8 +5,33 @@
 
 {% block content %}
 <h1>My Resume</h1>
-<h2>I'm currently a sophomore at the University of Michigan. I am enrolled in SI 206, where I learned to make this portfolio. I was just accepted into the School of Information, and hope to enhance my skills in coding.</br>I hope to use these skills and my past resume opportunities to participate in an internship program that consists of programming, and user design anayltics.</h2>
+<style>
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+<body>
+<div class="background">
+  <div class="transbox">
+    <h2>I'm currently a sophomore at the University of Michigan. I am enrolled in SI 206, where I learned to make this portfolio. I was just accepted into the School of Information, and hope to enhance my skills in coding.</br>I hope to use these skills and my past resume opportunities to participate in an internship program that consists of programming, and user design anayltics.</h2>
+  </div>
+</div>
+</body>
+
 <img src = "static/resume.png" alt = "resume" align="center" width = 500/>
+
+
+
 <!--<div class='my_container'>
 	<img src = "static/resume.png" alt = "resume" align="center" width = 500/>
 </div>-->

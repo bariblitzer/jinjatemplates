@@ -5,6 +5,15 @@ h1 {
 	text-shadow: 2px 2px #7F7F7F;
 }
 
+h2 {
+	color: black;
+	font-size: 100%;
+}
+
+.transbox {
+	margin-top: 10px;
+}
+
 .my_container {
 	margin-top: 20px;
 	margin-bottom: 50px;
