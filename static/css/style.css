@@ -44,30 +44,21 @@ footer {
 }
 
 @media screen and (min-width: 200px) {
-	h1 {
-		display: inline-block;
-		font-size: 70%;
 
 	}
 
 	header {
 		position: absolute;
 	}
-	img {
-		width: 60%;
-	}
+	
 }
 
 @media screen and (min-width: 800px) {
-	h1 {
-		display: inline-block;
-		font-size: 120%
+	
 
 	}
 	header {
 		position: fixed;
 	}
-	img {
-		width: 100%;
-	}
+	
 }
