@@ -11,6 +11,12 @@ body {
 	font-family: "Lato";
 }
 
+h3 {
+	color: black;
+	font-size: 100%;
+	text-shadow: 1px 1px #000000;
+}
+
 h1 {
 	color: white;
 	font-style: bold;
