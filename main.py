@@ -10,17 +10,17 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 
 class LoginHandler(webapp2.RequestHandler):
     def get(self):
-    	template = JINJA_ENVIRONMENT.get_template('templates/login.html')
-        options = {'title': 'Log In', 'path': self.request.path}
+    	template = JINJA_ENVIRONMENT.get_template('templates/photos.html')
+        options = {'title': 'Photos', 'path': self.request.path}
     	self.response.write(template.render(options))
     def post(self):
         name = self.request.get('name')
         password = self.request.get('password')
         if name == 'Colleen' and password == 'pass':
-            template = JINJA_ENVIRONMENT.get_template('templates/loggedin.html')
+            template = JINJA_ENVIRONMENT.get_template('templates/photos.html')
             self.response.write(template.render())
         else:
-            template = JINJA_ENVIRONMENT.get_template('templates/login.html')
+            template = JINJA_ENVIRONMENT.get_template('templates/photos.html')
             
             print name
             print password
@@ -75,5 +75,5 @@ app = webapp2.WSGIApplication([
     ('/myresume.html', OneHandler),
     ('/mybio.html', OneHandler),
     ('/home.html', OneHandler),
-    ('/login.html', LoginHandler)
+    ('/photos.html', LoginHandler)
 ], debug=True)

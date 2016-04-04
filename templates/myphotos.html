@@ -1,0 +1,187 @@
+{%extends "templates/bariblitzer.html" %}
+{% block styles %}
+	<link rel="stylesheet" href="static/loginstyle.css">
+	
+
+
+	<style>
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+		    width: 70%;
+		    margin: auto;
+		}
+		
+	</style>
+{% endblock %}
+
+{% block content %}
+<h1>Photo Page</h1>
+<h2>These are photographs taken at the college that I am currently attending: The University of Michigan. </br> These pictures represent the amazing campus that I am so lucky to be a part of, and the spirit that is present everyday while being a student here.</h2>
+
+<!--<body>
+<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_bariblitzer1_1">
+ <script type="text/javascript">
+ Skype.ui({
+ "name": "call",
+ "element": "SkypeButton_Call_bariblitzer1_1",
+ "participants": ["bariblitzer1"],
+ "imageSize": 32
+ });
+ </script>
+
+
+
+</div>
+</body>
+
+<body>
+<form method="post" name="contact_form"
+action="contact-form-handler.php">
+    Your Name:
+    <input type="text" name="name">
+ 
+    Email Address:
+    <input type="text" name="email">
+ 
+    Message:
+    <textarea name="message"></textarea>
+ 
+    <input type="submit" value="Submit">
+</form>
+<script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
+</body>
+    <!
+    <form method="post">
+    <label>Username: <input type = "text" name = "name"></label><br/>
+    <label>Password: <input type = "password" name = "password"></label><br/>
+        <p><input type="submit"></p>
+    </form>
+<html>
+<body>
+
+<h3>Send e-mail to bariblitzer@gmail.com:</h3>-->
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" width='200' height='200'>
+    <div class="item active">
+      <img src="/static/mich.png" width='200' height='200'>
+      <div class="carousel-caption">
+  
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/static/univ.jpg" width='200' height='200'>
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/static/union.jpg" width='300' height='300'>
+      <div class="carousel-caption">
+       
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/static/stadium.jpg" width='300' height='300'>
+      <div class="carousel-caption">
+     
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/static/build.jpg" width='300' height='300'>
+      <div class="carousel-caption">
+     
+      </div>
+    </div>
+  	
+
+  	<div class="item">
+      <img src="/static/m.jpg" width='300' height='300'>
+      <div class="carousel-caption">
+       
+       
+      </div>
+    </div>
+  
+
+  	<div class="item">
+      <img src="/static/tree.jpg" width='300' height='300'>
+      <div class="carousel-caption">
+      
+      </div>
+    </div>
+  
+
+  	<div class="item">
+      <img src="/static/ross.jpg" width='300' height='300'>
+      <div class="carousel-caption">
+     
+      </div>
+    </div>
+  
+
+  	<div class="item">
+      <img src="/static/bball.jpg" width='300' height='300'>
+      <div class="carousel-caption">
+ 
+      </div>
+    </div>
+  
+
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!--  TO WORK ON
+<h2>Log In</h2>
+<div id='form_container'>
+	<form action="mailto:bariblitzer@gmail.com" enctype="text/plain" method="post">
+	<p>Name: <input name="Name" type="text" id="Name" size="40"></p>
+	<p>E-mail address: <input name="E-mail" type="text" id="E-mail" size="40"></p>
+	<p>Comment:</p>
+	<p><textarea name="Comment" cols="55" rows="5"
+	id="Comment"></textarea></p>
+	<p><input type="submit" name="Submit" value="Submit"></p>
+	</form>
+</div>
+-->
+
+{% endblock %}
+
+
+
+
