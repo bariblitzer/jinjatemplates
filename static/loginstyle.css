@@ -7,11 +7,17 @@ div {
 	text-align: center;
 }
 
-h2 {
+h1 {
 	color: white;
-	font-size: 60px;
-	
+	margin-top: 50px;
 	text-shadow: 2px 2px #7F7F7F;
+}
+
+h2 {
+	color: black;
+	font-size: 93%;
+	
+
 }
 
 footer {
